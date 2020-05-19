@@ -52,7 +52,7 @@ if __name__ == '__main__':
         #we define the domain of integration
         Inter_x = [0,0,0]
         Inter_y = [1,1,1]
-        #we compute the integral and the error upper bound by our functionnt
+        #we compute the integral and the error upper bound
         #Monte_carlo
         I,Error = Monte_carlo(f,Inter_x,Inter_y)
         Exact_integral = ((np.pi)/4)**3
